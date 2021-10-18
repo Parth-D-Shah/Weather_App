@@ -1,0 +1,14 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+a {
+  color: #555b6e;
+  /* font-weight: bold; */
+}
+a.link:hover,
+a.link:active {
+  font-size: 110%;
+  transition: 0.3s;
+  text-decoration: none;
+  color: white;
+}

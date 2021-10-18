@@ -1,0 +1,61 @@
+body {
+  color: white !important;
+}
+.temp_Align {
+  text-align: center;
+}
+.temp_Size {
+  font-size: 45pt;
+}
+.bg-sunny {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("https://i.imgur.com/LW0UALl.jpeg");
+  background-repeat: repeat;
+  height: 812px;
+  width: 452px;
+  background-size: cover;
+}
+.bg-rainy {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("https://i.imgur.com/Tv8yW4c.jpeg");
+  background-repeat: repeat;
+  height: 812px;
+  width: 452px;
+  background-size: cover;
+}
+.bg-chilly {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("https://i.imgur.com/cktmiVC.jpeg");
+  background-repeat: repeat;
+  height: 812px;
+  width: 452px;
+  background-size: cover;
+}
+.bg-snowy {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("https://i.imgur.com/Z4tbJLV.jpeg");
+  background-repeat: repeat;
+  height: 812px;
+  width: 452px;
+  background-size: cover;
+}
+
+p {
+  font-size: 12px;
+}
+.display_Flex {
+  margin: 0;
+  position: absolute;
+  top: 34em;
+}
+.display_Flex_Button {
+  margin: 0;
+  position: absolute;
+  top: 55%;
+}
+
+#city_Info {
+  margin: 0;
+  position: relative;
+  left: 2em;
+}

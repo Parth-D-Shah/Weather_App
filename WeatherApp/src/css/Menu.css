@@ -1,0 +1,59 @@
+ul {
+  list-style: none;
+}
+.openMenu li {
+  color: white !important;
+  cursor: pointer;
+  padding: 10px;
+  margin-bottom: 1.5em;
+}
+.openMenu a {
+  color: white !important;
+}
+.openMenu li:hover {
+  text-decoration: none;
+  color: rgb(204, 104, 104) !important;
+}
+.openMenu a:hover {
+  text-decoration: none;
+  color: rgb(204, 104, 104) !important;
+}
+.openMenu {
+  height: 812px;
+  width: 250px;
+  position: absolute;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  background-color: #555b6e;
+  opacity: 1;
+  transition: width 0.5s;
+  padding-top: 60px;
+}
+.closeMenu {
+  background: none;
+  height: 0;
+  width: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: width 0.5s;
+}
+.openButton {
+  border: none;
+  outline: none;
+  background: none;
+  transition: 0.5s;
+  z-index: 9999;
+  position: absolute;
+  margin-top: 15px;
+}
+.closeButton {
+  z-index: 9999;
+  border: none;
+  outline: none;
+  background: none;
+  position: absolute;
+  transform: translateX(250px);
+  transition: 0.5s;
+  margin-top: 15px;
+}
