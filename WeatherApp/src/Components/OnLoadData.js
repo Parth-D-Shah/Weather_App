@@ -22,7 +22,7 @@ export default class OnLoadData extends Component {
 
   componentDidMount() {
     //Fetching weather data of current location
-    const APIKEY = "THIS_KEY_HAS BEEN_HIDDEN";
+    const APIKEY = "THIS_KEY_HAS_BEEN_HIDDEN";
     fetch(
       "https://geolocation-db.com/json/85249190-4601-11eb-9067-21b51bc8dee3" //Use this website to get users current city name
     )
